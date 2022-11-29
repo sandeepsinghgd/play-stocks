@@ -1,0 +1,2 @@
+export const GET_ADMIN_USERS = "GET_ADMIN_USERS";
+export const EDIT_ADMIN_USER = "EDIT_ADMIN_USER";

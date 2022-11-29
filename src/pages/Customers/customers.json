@@ -1,0 +1,74 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "unique-id" : "JD01S",
+            "firstName" : "John",
+            "lastName" : "Doe",
+            "email" : "john@gmail.com",
+            "phone" : "9375637458",
+            "isPinSet" : 0,
+            "isVerified" : 1 
+        },
+        {
+            "id": 2,
+            "unique-id" : "BD02S",
+            "firstName" : "Olive",
+            "lastName" : "Yew",
+            "email" : "yew@gmail.com",
+            "phone" : "9234367458",
+            "isPinSet" : 1,
+            "isVerified" : 1 
+        },
+        {
+            "id": 3,
+            "unique-id" : "AB01S",
+            "firstName" : "Aida",
+            "lastName" : "Bugg",
+            "email" : "aida@gmail.com",
+            "phone" : "6375637458",
+            "isPinSet" : 0,
+            "isVerified" : 0 
+        },
+        {
+            "id": 4,
+            "unique-id" : "TD01S",
+            "firstName" : "Teri",
+            "lastName" : "Dactyl",
+            "email" : "teri@gmail.com",
+            "phone" : "6371234458",
+            "isPinSet" : 0,
+            "isVerified" : 1 
+        },
+        {
+            "id": 5,
+            "unique-id" : "TD01S",
+            "firstName" : "Peg",
+            "lastName" : "Legge",
+            "email" : "legge@gmail.com",
+            "phone" : "6371234987",
+            "isPinSet" : 1,
+            "isVerified" : 0 
+        },
+        {
+            "id": 6,
+            "unique-id" : "AL01S",
+            "firstName" : "Allie",
+            "lastName" : "Legge",
+            "email" : "allie@gmail.com",
+            "phone" : "6871234987",
+            "isPinSet" : 1,
+            "isVerified" : 0 
+        },
+        {
+            "id": 7,
+            "unique-id" : "TD01S",
+            "firstName" : "Anita",
+            "lastName" : "Das",
+            "email" : "anita@gmail.com",
+            "phone" : "6871256987",
+            "isPinSet" : 0,
+            "isVerified" : 0 
+        }
+    ]
+}

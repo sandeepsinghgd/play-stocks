@@ -1,0 +1,48 @@
+{
+    "data":{
+        "group_trading_players":25,
+        "three_card_trading_players":50,
+        "total_players":75,
+        "result":{
+            "data":[
+                {
+                    "id":1,
+                    "game":"Group Trading",
+                    "date":"2022-08-05",
+                    "contest":20,
+                    "total_player":100
+                },
+                {
+                    "id":2,
+                    "game":"Three Card Trading",
+                    "date":"2022-08-05",
+                    "contest":50,
+                    "total_player":50
+                },
+         
+                {
+                    "id":3,
+                    "date":"2022-08-07",
+                    "game":"Three Card Trading",
+                    "contest":30,
+                    "total_player":80
+                },
+                {
+                    "id":4,
+                    "date":"2022-08-07",
+                    "game":"Group Trading",
+                    "contest":20,
+                    "total_player":100
+                },
+                {
+                    "id":5,
+                    "date":"2022-08-08",
+                    "game":"Group Trading",
+                    "contest":60,
+                    "total_player":60
+                }
+            ]
+        }
+    }
+
+}

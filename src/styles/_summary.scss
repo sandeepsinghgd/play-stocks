@@ -1,0 +1,103 @@
+.ant-row{
+    padding-top: 0px!important;
+}
+.ant-divider-horizontal{
+    margin: 0px;
+}
+.bg-primary.ant-avatar {
+    background-color: rgba(10,52,83,0.25)!important;
+    color: #0A3453!important;
+    line-height: 35px!important;
+    font-size: 23px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primaryBtn{
+    background: #0a3453;
+    color: white;
+    margin-right: 10px;
+}
+.blockBtn{
+    display: block;
+    width: 100%;
+    background-color: #0A3453!important;
+    color: #fff!important;
+    border: none;
+    padding: 7px 0;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.ant-progress-bg{
+    background-color: #0A3453!important;
+}
+.planCard{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #0A3453;
+}
+.text-gray{
+    color: #666666;
+    font-size:12px;
+}
+.planHeader{
+    font-size: 22px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-weight: 400;
+}
+.detailCard{
+    border-radius: 5px;
+}
+.summaryBtn{
+    color: white;
+    font-weight: 300!important;
+    border: 1px solid #0A3453;
+    background-color: #0a3453;
+    border-radius: 0px!important;
+}
+.bonusCard{
+    border-radius: 10px;
+    background: rgb(10, 52, 83);
+    margin: 0px 5px;
+}
+.bonusText{
+    font-size: 16px;
+    // font-weight: 400;
+    color: #0A3453;
+}
+.bonusMoney{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0A3453;
+}
+.panCard{
+    margin-top: 20px;
+    border: 1px solid #0A3453;
+    border-radius: 5px;
+}
+.imgRow .ant-image{
+    max-width: 100px;
+    height: 100px;
+}
+.imgRow .ant-image img{
+    height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+    .balance{
+        display: block;
+    }
+    .content-center{
+        text-align: -webkit-center;
+    }
+ }
+
+ .defaultImage{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }

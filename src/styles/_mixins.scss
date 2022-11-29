@@ -1,0 +1,15 @@
+@mixin box-shadow($params) {
+    -webkit-box-shadow: $params;
+    -moz-box-shadow: $params;
+    box-shadow: $params;
+  }
+  
+$bgShadow: 0px 0px 3px 2px #cce7ff;
+$navShadow: 0px 0px 3px 2px #bfbfbf;
+
+
+@mixin background-opacity($color, $opacity) {
+    background: $color;
+    background: rgba($color, $opacity);
+}
+

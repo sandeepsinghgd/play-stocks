@@ -1,0 +1,39 @@
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+    padding: 5px !important;
+}
+.table>:not(:first-child){
+    border-top:none !important;
+}
+tbody, td, tfoot, th, thead, tr{
+    border: none !important;
+}
+.table{
+    margin-bottom: 0px !important;
+}
+.table>:not(caption)>*>*{
+    padding: 0px !important;
+}
+.resultHeader:first-child{
+    background: #e6e6e6;
+}
+.mainListHead th{
+    color: #404040;
+}
+.subListHeadRow th{
+    color: #666666;
+}
+.subListChildHead th{
+    color: #666666;
+}
+.mainListDataRow td{
+    color: #404040;
+}
+.subListDataRow td{
+    color: #666666;
+}
+.subListChildDataRow td{
+    color: #666666;
+}
+.ant-collapse-content > .ant-collapse-content-box{
+    padding-bottom: 5px;
+}

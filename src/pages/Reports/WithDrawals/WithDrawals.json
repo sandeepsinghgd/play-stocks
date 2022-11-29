@@ -1,0 +1,51 @@
+{
+    "data":{
+        "total_amount":25,
+        "result":{
+            "data":[
+                {
+                    "id": 1,
+                    "date":"2022-09-01",
+                    "time":"22:30",
+                    "customer":"Ravi",
+                    "email":"ravi@gmail.com",
+                    "contact_no":"5179571684",
+                    "account": "324654864",
+                    "ifsc": "sfsdf",
+                    "type": "",
+                    "amount": 50,
+                    "status": "complete",
+                    "remark": "dfs"
+                },
+                {
+                    "id": 1,
+                    "date":"2022-09-01",
+                    "time":"22:30",
+                    "customer":"Ravi",
+                    "email":"ravi@gmail.com",
+                    "contact_no":"5179571684",
+                    "account": "324654864",
+                    "ifsc": "sfsdf",
+                    "type": "",
+                    "amount": 50,
+                    "status": "complete",
+                    "remark": "dfs"
+                },
+                {
+                    "id": 1,
+                    "date":"2022-09-01",
+                    "time":"22:30",
+                    "customer":"Ravi",
+                    "email":"ravi@gmail.com",
+                    "contact_no":"5179571684",
+                    "account": "324654864",
+                    "ifsc": "sfsdf",
+                    "type": "",
+                    "amount": 50,
+                    "status": "complete",
+                    "remark": "dfs"
+                }
+            ]
+        }
+    }
+}

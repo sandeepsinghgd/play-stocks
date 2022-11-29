@@ -1,0 +1,23 @@
+@import '../src/styles/variables';
+body{
+    background-color: $bg-color;
+}
+#root{
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(10, 52, 83,0.25); 
+    opacity: 0.5;
+}

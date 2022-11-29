@@ -1,0 +1,27 @@
+{
+    "data":{
+        "result":{
+            "data":[
+                {
+                    "id":1,
+                    "date":"2022-09-12",
+                    "stock_symbol":"s1",
+                    "stock_name":"name1",
+                    "difference": "fsf",
+                    "movement": 2421,
+                    "trade_number": 4324
+                },
+                {
+                    "id":5,
+                    "date":"2022-09-12",
+                    "stock_symbol":"s1",
+                    "stock_name":"name1",
+                    "difference": "fsf",
+                    "movement": 2421,
+                    "trade_number": 4324
+                }
+            ]
+        }
+    }
+
+}

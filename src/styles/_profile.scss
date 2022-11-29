@@ -1,0 +1,21 @@
+.profileCol{
+    padding-right: 10px;
+
+    @media (max-width:991px){
+        padding-right: 0px;
+    }
+    .profileCard{
+        border-radius: 7px;
+    }
+}
+.resetPasswordCol{
+    padding-left: 10px;
+
+    @media (max-width:991px){
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .resetPasswordCard{
+        border-radius: 7px;
+    }
+}

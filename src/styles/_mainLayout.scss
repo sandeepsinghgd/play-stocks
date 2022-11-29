@@ -1,0 +1,22 @@
+@import './variables';
+
+.site-layout-background{
+    margin: 10px;
+    padding: 10px;
+    @media (max-width: 520px){
+        margin: 0px;
+    }
+}
+.pageTitle{
+    padding: 10px 0 0 20px;
+    font-size: 30px;
+    color: $primary;
+}
+.ant-breadcrumb{
+    padding-left: 20px;
+}
+.pageHeader{
+    @media (max-width:520px){
+        margin-top: 65px;
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": ["plugin:react/recommended", "standard", "prettier"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "quotes": ["error", "double"],
+    "eqeqeq": "off",
+    "semi": [1, "always"],
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
+    "no-console": "off",
+    "react/prop-types": "off",
+    "@typescript-eslint/camelcase": "off",
+    "camelcase": 0
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "src/assets/images/",
+    "src/serviceWorker.ts",
+    "template/src/serviceWorker.ts"
+  ]
+}

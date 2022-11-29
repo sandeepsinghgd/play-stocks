@@ -1,0 +1,54 @@
+{
+    "data":{
+        "total_amount":25,
+        "result":{
+            "data":[
+                {
+                    "id": 1,
+                    "date":"2022-09-01",
+                    "transaction_id":"435415",
+                    "full_name":"Ravi",
+                    "nick_name":"Ra",
+                    "phone_number":"464653132",
+                    "email":"ravi@gmail.com",
+                    "win_amount":"44",
+                    "bank_name":"SBI",
+                    "account_number":"5179571684",
+                    "ifsc_code": "sfsdf",
+                    "amount": "324654864",
+                    "status": "Pending"
+                },
+                {
+                    "id": 2,
+                    "date":"2022-09-01",
+                    "transaction_id":"4415",
+                    "full_name":"Raj",
+                    "nick_name":"Raj",
+                    "phone_number":"464653132",
+                    "email":"raj@gmail.com",
+                    "win_amount":"44",
+                    "bank_name":"SBI",
+                    "account_number":"5179571684",
+                    "ifsc_code": "sfsdf",
+                    "amount": "324654864",
+                    "status": "Pending"
+                },
+                {
+                    "id": 3,
+                    "date":"2022-09-01",
+                    "transaction_id":"435415",
+                    "full_name":"Raghu",
+                    "nick_name":"Raghu",
+                    "phone_number":"464653132",
+                    "email":"raghu@gmail.com",
+                    "win_amount":"44",
+                    "bank_name":"SBI",
+                    "account_number":"5179571684",
+                    "ifsc_code": "sfsdf",
+                    "amount": "324654864",
+                    "status": "Pending"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,100 @@
+@import '~antd/dist/antd.css';
+@import "./styles/variables";
+@import "./assets/fonts/titilliumWeb/titilliumWeb.scss";
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Titillium Web", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.Error {
+  border-color: $danger !important;
+  border: 1px solid #FF0000 !important;
+  border-radius: 3px;
+}
+
+.text-danger {
+  color: $danger;
+}
+
+.Error-Text {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.sidebar {
+  position: fixed;
+}
+
+.site-layout.isOpen {
+  margin-left: 200px;
+  transition-duration: 0.2s;
+  @media (max-width: 520px) {
+    margin-left: 0px;
+  }
+}
+
+.site-layout.isClose {
+  margin-left: 80px;
+  transition-duration: 0.2s;
+  @media (max-width: 520px) {
+    margin-left: 0px;
+  }
+}
+.mainLayout {
+  height: 100%;
+}
+.ant-popover {
+  width: 30%;
+  @media (max-width: 991px) {
+    width: 50%;
+  }
+  @media (max-width: 767px) {
+    width: 60%;
+  }
+  @media (max-width: 520px) {
+    width: 75%;
+  }
+}
+.subMenuVisibility {
+  .ant-menu-submenu-arrow {
+    display: none;
+  }
+}
+.ant-modal {
+  // width: auto !important;
+  // max-width: auto !important;
+  @media (max-width: 520px){
+    max-width: calc(100vw - 40px) !important;
+    margin: 8px auto;
+  }
+}
+
+.uploadBtnStyle {
+  .ant-upload.ant-upload-select {
+    display: block;
+  }
+}
+
+::-webkit-scrollbar {
+  height: 2px;
+  border: 1px solid #d5d5d5;
+}
+
+.fixedHeight {
+  .ant-tooltip-inner {
+    height: 100px;
+    overflow-y: scroll;
+  }
+}
+
+// .configurationTab {
+  .ant-switch {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+  }
+// }

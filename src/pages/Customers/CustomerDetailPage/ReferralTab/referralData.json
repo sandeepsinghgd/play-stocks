@@ -1,0 +1,29 @@
+{
+    "result": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 1,
+                "mobile":9828828288,
+                "received_date": "15/04/2022",
+                "amount": "100.00",
+                "Bonus_Type": "Money",
+                "Transection_Date": "14/04/2021",
+                "Received_by": "Maneesh",
+                 "user_type":"Friend"
+            },
+            {
+                "id": 2,
+                "mobile":9828828288,
+                "received_date": "15/04/2022",
+                "amount": "100.00",
+                "Bonus_Type": "Money",
+                "Transection_Date": "15/04/2021",
+                "Received_by": "Suresh",
+               
+                 "user_type":"Friend"
+            }
+            
+        ]
+    }
+}

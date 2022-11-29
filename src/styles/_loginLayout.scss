@@ -1,0 +1,95 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+.loginPageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: $bodyBackgroundColor;
+
+    .loginCard {
+        min-height: 450px;
+        width: 500px;
+        padding: 35px;
+        background-color: $white;
+        border-radius: 10px;
+        @include box-shadow($bgShadow);
+    }
+    @media (max-width: 520px) {
+        .loginCard {
+            min-height: 400px;
+            width: 300px;
+            padding: 20px;
+        }
+    }
+}
+.forgotPasswordCard{
+    min-height: 300px;
+    width: 500px;
+    padding: 35px;
+    background-color: $white;
+    border-radius: 10px;
+    @include box-shadow($bgShadow);
+    .titleContainer {
+        padding-bottom: 10px;
+    }
+
+    @media (max-width: 520px) {
+            width: 300px;
+            padding: 20px;
+    }
+}
+.resetCard{
+    min-height: 300px;
+    width: 500px;
+    padding: 35px;
+    background-color: $white;
+    border-radius: 10px;
+    @include box-shadow($bgShadow);
+    .titleContainer {
+        padding-bottom: 10px;
+    }
+}
+.logo {
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+@media (max-width: 520px) {
+    .logo {
+        width: 100px;
+    }
+}
+.loginDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    
+    .titleContainer {
+        display: flex;
+        flex-direction: column;
+        color: $gray;
+
+        span {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: -5px;
+        }
+        small {
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+    .loginForm {
+        margin-top: 15px;
+        .ant-btn.ant-btn-link a{
+            text-decoration: none;
+        }
+        .field-style{
+            border-radius: 7px;
+        }
+        .btn-link{
+            color: $primary;
+            text-decoration: none;
+        }
+    }
+}

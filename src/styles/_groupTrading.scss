@@ -1,0 +1,49 @@
+
+.ant-table-expanded-row{
+    .ant-table-cell{
+        .mainCard{
+            margin-bottom: 0!important;
+            .ant-card-head{
+                display: none;
+            }
+            .ant-table{
+                margin: 0!important;
+            }
+            .ant-table-pagination{
+                display: none!important;
+            }
+        }
+    }
+}
+.ant-table-row-expand-icon-cell{
+    svg{
+        font-size: 16px;
+    }
+}
+.winRatioLbl{
+    line-height: 35px;
+}
+.winRatioBtn{
+    line-height: 0px;
+    margin-left: 10px;
+}
+.winRatioFormItem{
+    padding-top: 0px !important;
+    margin-bottom: 0px;
+}
+// .winRatioItems{
+//     width:33%;
+// }
+.groupTradingMain {
+    .ant-space-item {
+        svg{
+            font-size: 18px;
+        }
+        .ant-row{
+            padding-top:5px;
+        } 
+        .ant-form-item{
+            margin-bottom: 0;
+        }
+    }
+}

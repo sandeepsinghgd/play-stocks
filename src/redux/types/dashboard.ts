@@ -1,0 +1,1 @@
+export const INVESTED_AMOUNTS = "INVESTED_AMOUNTS";

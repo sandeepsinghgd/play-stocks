@@ -1,0 +1,17 @@
+.roleInputField{
+    border-color: #FF0000;
+}
+
+// @media (max-width: 700px) {
+//     .ant-drawer-body{
+//         padding:25px 15px 0px 25px!important;
+//     }
+//   }
+
+  @media (max-width: 320px) {
+    .ant-drawer-content{
+        width:380px!important;
+        padding:10px 15px 0px 50px!important;
+    }
+  }
+

@@ -1,0 +1,1 @@
+export const SET_EMAIL_SETTING = "SET_EMAIL_SETTING";

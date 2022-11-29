@@ -1,0 +1,80 @@
+.tokenStyle{
+    background-color: #0A3453;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.tokenStyle:hover{
+    background-color: #fff;
+    color: #0A3453;
+    border: 1px solid #0A3453;
+}
+.ant-card-body{
+    width: 100%!important;
+}
+// .recharts-default-legend{
+//     display: none!important;
+// }
+.recharts-legend-item-text{
+    display: none!important;
+}
+// .recharts-legend-item{
+//     display: none!important;
+// }
+.recharts-legend-item .recharts-surface{
+display: none!important;
+}
+.ant-input-number-input{
+    background-color: #0A3453;
+    border-radius: none;
+
+}
+.ant-input-number-input:hover{
+    // background-color: #fff;
+    color: #0A3453;
+    border: 1px solid #0A3453;
+}
+.ant-input-number-input:focus{
+    // background-color: #fff;
+    color: #0A3453;
+    outline:none;
+
+    border: 1px solid #0A3453;
+}
+
+.dashboardContainer {
+    .ant-card-head-title {
+        @media (min-width: 1280px) {
+            font-size: 18px;
+        }
+    }
+    .ant-card-body {
+        height: 84%;
+        @media (max-width: 767px) {
+            margin-top: 1.5rem;
+        }
+    }
+    .ant-table-content {
+        height: 220px;
+    }
+    .adminDataTable, .ant-table-wrapper, .ant-spin-nested-loading, .ant-spin-container {
+        height: 100%;
+    }
+    .ant-pagination {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.contestsCard {
+    .ant-card-body {
+        padding: 20px;
+    }
+}
+
+// .latestTransaction .ant-table.ant-table-small .ant-table-tbody > tr > td {
+//     padding: 8px 7px;
+// }

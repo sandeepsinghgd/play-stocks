@@ -1,0 +1,74 @@
+{
+    "data":{
+        "group_trading_players":25,
+        "group_trading_amount":100,
+        "three_card_trading_players":50,
+        "three_card_trading_amount":400,
+        "total_players":75,
+        "total_amount":7500,
+        "result":{
+            "data":[
+                {
+                    "id":1,
+                    "date":"2022-08-05",
+                    "game":"Group Trading",
+                    "contest":20,
+                    "customer":"John",
+                    "email_id":"john@gmail.com",
+                    "contact_number":8475094837,
+                    "result":"success",
+                    "points":67.84,
+                    "amount":650
+                },
+                {
+                    "id":2,
+                    "date":"2022-08-05",
+                    "game":"Three Card Trading",
+                    "contest":50,
+                    "customer":"Jay",
+                    "email_id":"jay@gmail.com",
+                    "contact_number":8475094837,
+                    "result":"success",
+                    "points":87.84,
+                    "amount":60
+                },
+                {
+                    "id":3,
+                    "date":"2022-08-07",
+                    "game":"Three Card Trading",
+                    "contest":30,
+                    "customer":"Karan",
+                    "email_id":"karan@gmail.com",
+                    "contact_number":8475094837,
+                    "result":"success",
+                    "points":67.84,
+                    "amount":65
+                },
+                {
+                    "id":4,
+                    "date":"2022-08-07",
+                    "game":"Group Trading",
+                    "contest":20,
+                    "customer":"Ram",
+                    "email_id":"ram@gmail.com",
+                    "contact_number":8475094837,
+                    "result":"success",
+                    "points":67.84,
+                    "amount":65
+                },
+                {
+                    "id":5,
+                    "date":"2022-08-08",
+                    "game":"Group Trading",
+                    "contest":60,
+                    "customer":"Sanjay",
+                    "email_id":"sanjay@gmail.com",
+                    "contact_number":8475094837,
+                    "result":"success",
+                    "points":67.84,
+                    "amount":65
+                }
+            ]
+        }
+    }
+}

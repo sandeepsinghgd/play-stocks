@@ -1,0 +1,23 @@
+$primary: #0A3453;
+
+$secondary: #d9d9d9;
+$bodyBackgroundColor: #f0f8ff;
+$white:#fff;
+$gray:#666666;
+$danger:#FF0000;
+$bgShadow : #cce7ff;
+$navShadow : #bfbfbf;
+$bgItems : #0a3453;
+$bg-color : #F0F2F5;
+:export {
+  primary: $primary;
+  secondary: $secondary;
+  bodyBackgroundColor: $bodyBackgroundColor;
+  white: $white;
+  gray:$gray;
+  $bgShadow:$bgShadow;
+  navShadow:$navShadow;
+  bgItems:$bgItems;
+  danger:$danger;
+  bg-color:$bg-color;
+}

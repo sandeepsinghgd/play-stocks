@@ -1,0 +1,80 @@
+.mainCard{
+    margin-bottom: 20px;
+    
+    .ant-card-head-wrapper {
+        display: block;
+        @media (min-width: 992px) {
+            display: flex;
+        }
+    }
+    .ant-card-head{
+        padding: 5px 10px;
+        // background-color: #0A3453;
+        border-radius: 10px;
+        min-height: unset;
+        .ant-card-head-title{
+            padding: 0px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 47.09px;
+        }
+        .ant-card-extra{
+            display: flex;
+            padding: 5px 0px;
+            justify-content: end;
+            .ant-input-group{
+                padding-right:10px ;
+            }
+            .exportButton{
+                font-weight: 500 !important;
+                font-size: 16px;
+                line-height: 18.75px;
+            }
+        }
+    }
+    .ant-card-body{
+        padding: 10px;
+        .tableColName{
+            font-weight: 400 !important;
+            font-size: 16px;
+            line-height: 18.75px;
+        }
+        .tableColVal{
+            font-weight: 500 !important;
+            font-size: 16px;
+            line-height: 18.75px;
+        }
+    }
+    .adminDataTable{
+        margin: 0!important;
+        .ant-btn-group > .ant-btn:first-child:not(:last-child){
+            display: none;
+        }
+        .ant-table-cell{
+            .ant-typography{
+                margin-bottom: 0px;
+                padding-left: 3px;
+            }
+            .avtarName{
+                display: flex;
+                align-items: center;
+                margin-bottom: 0;
+            }
+        }
+        
+    }
+    .ant-picker-input {
+        input {
+            width: 100px;
+        }
+    }
+}
+@media only screen and (max-width: 700px){
+    .ant-card-head-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
+
+

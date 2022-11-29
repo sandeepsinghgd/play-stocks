@@ -1,0 +1,90 @@
+.selectedDateCell{
+//     height: 100%;
+//     width: 100%;
+//     position: absolute;
+//     top: 0;
+//     // background: rgba(10, 52, 83, 0.25);
+//     color: #0A3453;
+    padding: 0;
+//     left: 0;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-weight: bold;
+//     font-size: 16px;
+}
+.dateCell{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: transparent;
+  padding: 0;
+  left: 0;
+}
+
+// background: antiquewhite;
+// width: fit-content;
+// display: contents;
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date{
+  // background: #0a3453;
+  color: white!important;
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date:hover{
+  // background: #0a3453;
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content{
+  height:41px !important;
+}
+.cal-card{
+  width: 100%;
+}
+// .ant-picker-cell-inner .ant-picker-calendar-date .ant-picker-calendar-date-value{
+//   background: rgb(230, 171, 95)!important;
+// width: fit-content!important;
+// display: contents!important;
+// }
+.ant-picker-cell-inner .ant-picker-calendar-date .ant-picker-calendar-date-today{
+
+}
+.ant-picker-cell-inner .ant-picker-calendar-date{
+  position: relative!important;
+}
+.ant-picker-calendar-date-value{
+display: inline-block!important;
+}
+.holiday-div{
+  position: relative;
+  height: 100%;
+  // display: flex;
+  // justify-content:space-between;
+}
+.btn-class{
+  background-color: #0A3453;
+                border: none;
+                display: flex;
+                border-radius: 4px;
+                height:23px;
+                align-items: center;
+}
+.ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+  display: none!important;
+}
+.ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+  display: none!important;
+}
+.ant-radio-button-wrapper{
+  display: none!important;
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date{
+  padding: 4px 0px 0!important;
+}
+.ql-container.ql-snow{
+  overflow-y: auto;
+}
+.cal-card {
+  .ant-card-head-title {
+    font-size: 18px;
+    white-space: normal;
+  }
+}

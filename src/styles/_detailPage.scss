@@ -1,0 +1,28 @@
+@import "./variables";
+
+.detailPageTab {
+  // margin-left: 20px;
+
+  @media (max-width: 767px) {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .ant-tabs-nav {
+    border-bottom: 1px solid $secondary;
+  }
+  .ant-tabs-tab-active {
+    background-color: $primary !important;
+    .ant-tabs-tab-btn {
+      color: $white;
+    }
+  }
+  .ant-tabs-tab-btn:active {
+    color: $white;
+  }
+  .ant-tabs-tab-btn:focus {
+    color: $white;
+  }
+  .ant-tabs-tab:hover {
+    color: $primary;
+  }
+}

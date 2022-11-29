@@ -1,0 +1,53 @@
+{
+    "data":{
+        "result":{
+            "data":[
+                {
+                    "id":1,
+                    "game":"Group Trading",
+                    "date":"2022-08-05",
+                    "contest":20,
+                    "total_player":100,
+                    "amount":10,
+                    "type":"type1",
+                    "deducted_from":"d1",
+                    "balance":50
+                },
+                {
+                    "id":2,
+                    "date":"2022-08-08",
+                    "game":"Group Trading",
+                    "contest":60,
+                    "total_player":60,
+                    "amount":10,
+                    "type":"type1",
+                    "deducted_from":"d1",
+                    "balance":50
+                },
+                {
+                    "id":3,
+                    "date":"2022-08-08",
+                    "game":"Group Trading",
+                    "contest":60,
+                    "total_player":60,
+                    "amount":10,
+                    "type":"type1",
+                    "deducted_from":"d1",
+                    "balance":50
+                },
+                {
+                    "id":4,
+                    "date":"2022-08-08",
+                    "game":"Group Trading",
+                    "contest":60,
+                    "total_player":60,
+                    "amount":10,
+                    "type":"type1",
+                    "deducted_from":"d1",
+                    "balance":50
+                }
+            ]
+        }
+    }
+
+}

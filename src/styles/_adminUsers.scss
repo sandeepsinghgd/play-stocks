@@ -1,0 +1,16 @@
+.roleSelect{
+    .ant-select-arrow{
+        padding-right: 20px;
+    }
+}
+.ant-dropdown-button{
+    .ant-btn{
+        display: none;
+    }
+    .ant-btn.ant-btn-icon-only.ant-dropdown-trigger{
+        display: block;
+    }
+}
+.ant-typography{
+    margin-bottom: 0!important;
+}

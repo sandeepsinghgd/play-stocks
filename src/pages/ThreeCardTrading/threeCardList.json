@@ -1,0 +1,32 @@
+{
+    "result": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 1,
+                "name": "Group1",
+                "amount": "60.00",
+                "bid_user_limit": 5,
+                "status": 1,
+                "shuffle_time": "08:00" 
+            },
+            {
+                "id": 2,
+                "name": "Group2",
+                "amount": "90.00",
+                "bid_user_limit": 10,
+                "status": 0,
+                "shuffle_time": "09:00" 
+            },
+            {
+                "id": 3,
+                "name": "Group3",
+                "amount": "120.00",
+                "bid_user_limit": 20,
+                "status": 1,
+                "shuffle_time": "06:00" 
+            }
+        ]
+    }
+}
+    

@@ -1,0 +1,26 @@
+.dateTitle{
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.8;
+}
+#scrollableDiv .infinite-scroll-component__outerdiv{
+    height: 100%;
+}
+.infinite-scroll-component__outerdiv .infinite-scroll-component.infiniteScrollDiv{
+    height: 100%!important;
+}
+.noDataBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #cccccc
+}
+.noDataBlock p{
+    font-family: sans-serif;
+}
+.markReadButtonStyle{
+    display: flex;
+    justify-content: flex-end;
+}

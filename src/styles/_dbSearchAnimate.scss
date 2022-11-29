@@ -1,0 +1,21 @@
+.dbSearchFun .ant-input-group .ant-input{
+//    display: none!important;
+   
+}
+.dbSearchFun .ant-input{
+    // display: none!important;
+    // width:0!important;
+    transform: translateX(100%);
+    border: none!important;
+}
+.dbSearchFun .ant-input-search .ant-input:focus {
+    border-color:transparent; 
+}
+.ant-card-extra{
+    overflow-x: hidden;
+}
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
+     left: 0px; 
+    padding: 0px;
+    border: 0;
+}

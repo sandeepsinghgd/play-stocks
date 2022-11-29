@@ -1,0 +1,28 @@
+.ant-upload.ant-upload-select-picture-card{
+    height: 91px;
+}
+
+.ant-upload-picture-card-wrapper{
+    height: 20%;
+    width: 84%;
+    margin: 0px 8px;
+}
+.uploadButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.ant-modal-body{
+    .submitBtn{
+        background-color: #0a3453;
+        color: white;
+        border-radius: 10px;
+        line-height: 1.5715;
+        height: 32px;
+        padding: 4px 15px !important;
+        font-weight: 300 !important;
+    }
+}

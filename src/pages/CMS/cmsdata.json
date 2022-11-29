@@ -1,0 +1,30 @@
+{
+    "data" : [
+        {
+            "id": 1,
+           
+            "name" : "John",
+            "url" : "url",
+            "status":0
+           
+        },
+        {
+            "id": 2,
+            
+            "name" : "Olive",
+            "url" : "url",
+            "status":0
+           
+        },
+        {
+            "id": 3,
+            "name" : "maneesh",
+            "url" : "url",
+            "status":1
+           
+        }
+      
+        
+        
+    ]
+}

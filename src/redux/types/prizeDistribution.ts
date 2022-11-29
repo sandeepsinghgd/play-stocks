@@ -1,0 +1,1 @@
+export const SET_WINNING_RATIO = "SET_WINNING_RATIO";
